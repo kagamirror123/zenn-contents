@@ -1,0 +1,22 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.224.3/containers/javascript-node
+{
+	"name": "Zenn Contents",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"args": { "VARIANT": "16-bullseye" }
+	},
+
+	"settings": {},
+
+	"extensions": [
+		"GitHub.vscode-pull-request-github"
+	],
+
+	"remoteUser": "node",
+
+	"features": {
+		"git": "latest",
+		"github-cli": "latest"
+	}
+}
