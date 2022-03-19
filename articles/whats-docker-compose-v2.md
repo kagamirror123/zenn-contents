@@ -3,7 +3,7 @@ title: "Docker Compose V2で変わったdocker-compose.ymlの書き方"
 emoji: "🐳"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["docker", "dockercompose"]
-published: false
+published: true
 ---
 
 # 概要
