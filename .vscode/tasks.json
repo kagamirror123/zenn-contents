@@ -1,0 +1,27 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Zennエディターのプレビューを起動",
+            "detail": "Zennエディターのプレビュー環境を起動します",
+            "type": "shell",
+            "command": "npx zenn preview",
+            "problemMatcher": [],
+        },
+        {
+            "label": "新しい記事を作成",
+            "detail": "Zennの新しい記事を作成します。ファイル名（slug）を入力する必要があります。",
+            "type": "shell",
+            "command": "npx zenn new:article --slug ${input:slug}",
+            "problemMatcher": []
+        }
+    ],
+    "inputs": [
+        {
+          "id": "slug",
+          "type": "promptString",
+          "description": "英語でファイル名を入力（記事のタイトルと似ていたほうがいい）"
+          // type specific configuration attributes
+        }
+      ]
+}
