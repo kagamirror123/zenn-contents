@@ -77,7 +77,7 @@ https://github.com/docker/cli/blob/4cc4385075205409c835454f6e5055147d8495b4/cli-
 
 `docker-`からはじまる実行ファイルを特定のディレクトリに配置することで、Dockerコマンドのサブコマンドしてプラグインが使えるようになります。
 
-- ユーザーごとのインストールの場合 ➡ $HOME/.docker/cli/plugin/
+- ユーザーごとのインストールの場合 ➡ $HOME/.docker/cli-plugins/
 - システムへのインストールの場合 ➡ /usr/local/lib/docker/cli-plugins/
 
 # プラグインの作り方
