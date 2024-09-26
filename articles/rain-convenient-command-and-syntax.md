@@ -3,7 +3,7 @@ title: "Cloudformationツール：rainの便利なコマンドと記法"
 emoji: "☔️"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [Cloudformation,Rain,AWS]
-published: false
+published: true
 ---
 
 # 概要
